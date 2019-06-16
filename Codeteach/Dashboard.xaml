@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Codeteach.Dashboard" Title="Dashboard"> 
+ <ContentPage.Content>            
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+            <Button Text="Java" Clicked="Handle_Clicked1" Padding="60"></Button>
+            <Button Text="C ++" Clicked="Handle_Clicked2" Padding="60"></Button>
+            <Button Text="HTML" Clicked="Handle_Clicked3" Padding="60"></Button>
+            <Button Text="C#" Clicked="Handle_Clicked4" Padding="60"></Button>
+            <Button Text="Python" Clicked="Handle_Clicked5" Padding="60"></Button>
+            
+                         
+ </StackLayout>
+</ContentPage.Content>
+    </ContentPage>

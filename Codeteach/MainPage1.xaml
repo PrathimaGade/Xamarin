@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Codeteach.MainPage1" Title="CODE TEACH">
+    <ContentPage.Content>
+        <StackLayout Padding="40">
+        <Entry Text="Email" >
+        </Entry>
+        <Entry Text="Password">
+        </Entry>
+                
+            
+        <Button Text="Login" Clicked="Handle_Clicked" Padding="40"></Button>
+        <Button Text="Signup" Clicked="Handle_Clicked2" Padding="40"></Button>
+                
+                    
+        
+         </StackLayout> 
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,125 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/adityapidikiti/Documents/Codeteach.iOS/Codeteach.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/adityapidikiti/Documents/Codeteach.iOS/Codeteach.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adityapidikiti/Documents/Codeteach.iOS/Codeteach.iOS.csproj",
+        "projectName": "Codeteach.iOS",
+        "projectPath": "/Users/adityapidikiti/Documents/Codeteach.iOS/Codeteach.iOS.csproj",
+        "packagesPath": "/Users/adityapidikiti/.nuget/packages/",
+        "outputPath": "/Users/adityapidikiti/Documents/Codeteach.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/adityapidikiti/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/adityapidikiti/Documents/Codeteach/Codeteach.csproj": {
+                "projectPath": "/Users/adityapidikiti/Documents/Codeteach/Codeteach.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/adityapidikiti/Documents/Codeteach/Codeteach.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adityapidikiti/Documents/Codeteach/Codeteach.csproj",
+        "projectName": "Codeteach",
+        "projectPath": "/Users/adityapidikiti/Documents/Codeteach/Codeteach.csproj",
+        "packagesPath": "/Users/adityapidikiti/.nuget/packages/",
+        "outputPath": "/Users/adityapidikiti/Documents/Codeteach/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/adityapidikiti/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
